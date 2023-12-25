@@ -1,0 +1,26 @@
+name: taimpeaux
+description: A sample app in Flutter.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.2.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  vibration: ^1.7.0
+
+  cupertino_icons: ^1.0.3
+  provider: ^6.0.2
+  go_router: ">=10.0.0 <13.0.0"
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  test: ^1.16.8
+
+flutter:
+  uses-material-design: true
